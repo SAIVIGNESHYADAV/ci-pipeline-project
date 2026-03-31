@@ -1,9 +1,7 @@
-from main import multiply
+from main import square
 
-def test_multiply():
-    assert multiply(2, 3) == 6
+def test_square():
+    assert square(4) == 16
 
-# run test
-test_multiply()
-
+test_square()
 print("Test Passed!")
