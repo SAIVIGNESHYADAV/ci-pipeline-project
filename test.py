@@ -1,2 +1,9 @@
-def multiply(a, b):
-    return a + b   # wrong
+from main import multiply
+
+def test_multiply():
+    assert multiply(2, 3) == 6
+
+# run test
+test_multiply()
+
+print("Test Passed!")
